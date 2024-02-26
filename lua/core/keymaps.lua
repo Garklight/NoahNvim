@@ -14,6 +14,8 @@ keymap.set("v","K",":m '>-2<CR>gv=gv")
 --快捷全局替换
 keymap.set("v","<leader>:s","y:%s/<c-r>0/")
 -----------正常模式-------------
+--状态栏退出
+keymap.set("n","<leader>wq",":bd<CR>")
 --窗口
 --水平
 keymap.set("n","<leader>sh","<C-w>v")
