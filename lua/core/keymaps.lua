@@ -13,6 +13,8 @@ keymap.set("v","J",":m '>+1<CR>gv=gv")
 keymap.set("v","K",":m '>-2<CR>gv=gv")
 --快捷全局替换
 keymap.set("v","<leader>:s","y:%s/<c-r>0/")
+--快捷复制系统到剪切板
+keymap.set("v","<c-c>","\"+y")
 -----------正常模式-------------
 --状态栏退出
 keymap.set("n","<leader>wq",":bd<CR>")
